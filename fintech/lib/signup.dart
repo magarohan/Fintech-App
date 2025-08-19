@@ -144,25 +144,7 @@ class _SignupPageState
                     ),
                     const SizedBox(
                       height: 20,
-                    ),
-                    ElevatedButton(
-                      onPressed: () {
-                        // Handle login action
-                      },
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: MyColors.primaryColor,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(
-                            18,
-                          ),
-                        ),
-                      ),
-                      child: const Text(
-                        'Sign Up',
-                        style: TextStyle(
-                          fontSize: 18,
-                        ),
-                      ),
+                      width: 200,
                     ),
                     ElevatedButton(
                       onPressed: () {
